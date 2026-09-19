@@ -1,0 +1,22 @@
+[
+  {
+    "product":"Keyboard",
+    "total_quantity":5,
+    "total_cost":399.95
+  },
+  {
+    "product":"Laptop",
+    "total_quantity":3,
+    "total_cost":2999.97
+  },
+  {
+    "product":"Monitor",
+    "total_quantity":3,
+    "total_cost":899.97
+  },
+  {
+    "product":"Mouse",
+    "total_quantity":15,
+    "total_cost":449.85
+  }
+]

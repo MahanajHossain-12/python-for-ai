@@ -1,8 +1,14 @@
-1. Stage all your new and changed files so Git knows to include them:
+# 1. Link to the correct repository
+git remote set-url origin https://github.com/MahanajHossain-12/python-for-ai.git
+
+# Verification: Confirm origin shows python-for-ai.git
+git remote -v
+
+# 2. Stage all new files (class.py, methods_attributes.py, etc.)
 git add .
 
-2. Save a snapshot of these files with a descriptive message:
-git commit -m "Add Python OOP classes and methods practice"
+# 3. Commit your changes
+git commit -m "Add OOP classes and methods practice"
 
-3. Upload your new commit directly to GitHub:
-git push
+# 4. Push to GitHub
+git push -u origin main

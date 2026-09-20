@@ -5,22 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-class Dog:
-    def __init__(self, name, breed): # init method is a constructor that initializes the attributes of the class
-        self.name = name
-        self.breed = breed
-
-class Cat:
-    def __init__ (self, name, color):
-        self.name = name
-        self.color = color
-
-Tomy = Dog ("Tomy", "BullDog")
-Whiskers = Cat ("Whiskers", "Orange")
-
-
-
-
 class APIConfig:
     def __init__(self, api_key=None, model="gpt-3.5-turbo", max_tokens=100):
         self.api_key = api_key or os.environ.get("OPENAI_API_KEY")
@@ -43,8 +27,22 @@ print(dev_config.model)        # gpt-3.5-turbo
 print(prod_config.model)       # gpt-4
 print(prod_config.max_tokens)  # 1000
 
+#_____________________________________________________#
+class Dog:
+    def __init__(self, name, breed): # init method is a constructor that initializes the attributes of the class
+        self.name = name
+        self.breed = breed
+
+class Cat:
+    def __init__ (self, name, color):
+        self.name = name
+        self.color = color
+
+Tomy = Dog ("Tomy", "BullDog")
+Whiskers = Cat ("Whiskers", "Orange")
 
 
+#______________________________________________________#
 # Parent class - general animal
 class Animal:
     def __init__(self, name):

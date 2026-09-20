@@ -20,7 +20,7 @@ class DataValidator:
 # Use the validator methods without needing to create an instance of the class
 validator = DataValidator()
 
-# Notice: we don't pass self, just the email
+# Notice: we don't pass self, just the email because the method is called on the instance of the class
 validator.validate_email(email="bad-email")
 validator.validate_age(200)
 

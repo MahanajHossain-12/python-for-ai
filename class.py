@@ -96,3 +96,4 @@ print(my_cat.sleep())  # Whiskers is sleeping
 
 # Cat can also do cat things
 print(my_cat.meow())  # Whiskers says meow!
+print(my_cat2..meaw())  # Fluffy says meow!

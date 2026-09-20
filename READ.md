@@ -2,7 +2,7 @@
 
 This repository serves as a portfolio of hands-on technical exercises, data analysis pipelines, and object-oriented programming (OOP) implementations.
 
----
+--- 
 
 ## Focus Areas & Learning Objectives
 

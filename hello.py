@@ -134,7 +134,7 @@ if 4 in my_set:
 
 def welcoming():
     print("Hello, welcome to the program!")
-    pass  # Placeholder for future code
+    # Placeholder for future code
 
 
 welcoming()  # Calling the function to execute it
@@ -142,7 +142,7 @@ welcoming()  # Calling the function to execute it
 
 def greet(name):
     print(f"Hello, {name}! Welcome to the program!")
-    pass  # Placeholder for future code
+    # Placeholder for future code
 
 
 greet("Alice")  # Calling the function with an argument
@@ -152,7 +152,7 @@ greet("Charlie")  # Calling the function with yet another argument
 
 def greet_user(name, age):
     print(f"Hello, {name}! You are {age} years old.")
-    pass  # Placeholder for future code
+    # Placeholder for future code
 
 
 greet_user("Alice", 25)  # Calling the function with two arguments
@@ -225,10 +225,8 @@ print(
 
 # Importing the entire math module and specific functions/constants from it
 
-import math  # Importing the math module to access mathematical functions and constants
 from math import (
     sqrt,
-    pi,
 )  # Importing specific functions (sqrt) and constants (pi) from the math module
 
 square_root = sqrt(16)  # Using the sqrt function to calculate the square root of 16

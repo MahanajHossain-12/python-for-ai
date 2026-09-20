@@ -1,7 +1,6 @@
-import pandas as pd
-import json
 import os
 
+import pandas as pd
 
 # Check if we're in the right place
 print(

@@ -23,7 +23,7 @@ Whiskers = Cat ("Whiskers", "Orange")
 
 class APIConfig:
     def __init__(self, api_key=None, model="gpt-3.5-turbo", max_tokens=100):
-        self.api_key = api_key or os.getenv("OPENAI_API_KEY")
+        self.api_key = api_key or os.environ.get("OPENAI_API_KEY")
         self.model = model
         self.max_tokens = max_tokens
         self.base_url = "https://api.openai.com/v1"

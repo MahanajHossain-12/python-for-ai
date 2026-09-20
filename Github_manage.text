@@ -1,0 +1,8 @@
+1. Stage all your new and changed files so Git knows to include them:
+git add .
+
+2. Save a snapshot of these files with a descriptive message:
+git commit -m "Add Python OOP classes and methods practice"
+
+3. Upload your new commit directly to GitHub:
+git push

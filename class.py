@@ -51,10 +51,19 @@ class Dog(Animal):
     def bark(self):
         return f"{self.name} says woof!"
 
+class Cat(Animal):
+    def meow(self):
+        return f"{self.name} says meow!"
+
 # Create a dog - using positional argument
 my_dog = Dog("Buddy")
 # Or with named argument
 my_dog2 = Dog(name="Max")
+
+# Create a cat - using positional argument
+my_cat = Cat("Whiskers")
+# Or with named argument
+my_cat2 = Cat(name="Fluffy")
 
 # Dog can do animal things (inherited)
 print(my_dog.eat())    # Buddy is eating
@@ -62,3 +71,10 @@ print(my_dog.sleep())  # Buddy is sleeping
 
 # Dog can also do dog things
 print(my_dog.bark())   # Buddy says woof!
+
+# Cat can do animal things (inherited)
+print(my_cat.eat())    # Whiskers is eating
+print(my_cat.sleep())  # Whiskers is sleeping
+
+# Cat can also do cat things
+print(my_cat.meow())   # Whiskers says meow!
